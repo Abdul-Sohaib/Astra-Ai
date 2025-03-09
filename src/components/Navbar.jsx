@@ -83,7 +83,7 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Explore Button */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo-2.png" alt="logo" className="w-11" />
+            <img src="/img/logo-2.png" alt="logo" className="w-28" />
 
             <Button
               id="product-button"
@@ -94,7 +94,7 @@ const NavBar = () => {
           </div>
 
           {/* Navigation Links and Audio Button */}
-          <div className="flex h-full items-center">
+          <div className="flex h-full items-center font-bold">
             <div className="hidden md:block">
               {navItems.map((item, index) => (
                 <a
